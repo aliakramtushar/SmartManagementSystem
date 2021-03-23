@@ -1,0 +1,407 @@
+﻿
+@{
+    ViewBag.Title = "Bill Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">Bill Information</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="BillApp" style="height:520px">
+            <div ng-controller="BillController">
+                <div class="container">
+                    <form class="well form-horizontal" style="margin:0 auto; width:100%">
+                        <label class="col-md-2 control-label">Customer Name</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-qrcode"></i></span>
+                                <input type="text" placeholder="Customer Name" class="form-control" ng-model="Bill.CustomerName">
+                            </div>
+                        </div>
+                        <label class="col-md-2 control-label">Bill Date</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                <input type="text" placeholder="Auto Generated" class="form-control" ng-model="Bill.BillDateSt" readonly="readonly">
+                            </div>
+                        </div>
+
+                        <label class="col-md-2 control-label">Mobile</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                <input type="text" placeholder="Mobile Number" class="form-control" ng-model="Bill.CustomerMobile">
+                            </div>
+                        </div>
+
+                        <label class="col-md-2 control-label">Address</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                <input type="text" placeholder="Address" class="form-control" ng-model="Bill.CustomerAddress">
+                            </div>
+                        </div>
+                        <fieldset>
+                            @*<legend>Product Information</legend>*@
+                            <div class="col-md-3 inputGroupContainer">
+                                <div class="input-group">
+                                    <b>Product Name :</b><input type="text" class="form-control class" ng-model="ProductName">
+                                </div>
+                            </div>
+                            <div class="col-md-2 inputGroupContainer">
+                                <div class="input-group">
+                                    <b>Rate(Price) :</b><input type="number" class="form-control class" ng-model="Price" ng-change="UpdateTotalPrice()">
+                                </div>
+                            </div>
+                            <div class="col-md-2 inputGroupContainer">
+                                <div class="input-group">
+                                    <b>Unit :</b><input type="number" class="form-control" ng-model="Quantity" ng-change="UpdateTotalPrice()">
+                                </div>
+                            </div>
+                            <div class="col-md-2 inputGroupContainer">
+                                <div class="input-group">
+                                    <b>Total :</b><input type="number" class="form-control" ng-model="Total" disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="col-md-2 inputGroupContainer">
+                                <div class="input-group">
+                                    <button id="btnAdd" type="button" ng-click="AddToList()" class="btn btn-sm btn-success" style="width:180px"><i class="glyphicon glyphicon-plus-sign"></i> Add To List</button>
+                                    <button id="btnRemove" type="button" ng-click="Delete()" class="btn btn-sm btn-danger" style="width:180px"><i class="glyphicon glyphicon-minus-sign"></i> Remove From List</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <div ui-grid="gridOptions" ui-grid-selection class="grid-angular" style="float:left"></div>
+                    <div style="float:right; width:35%; margin-right:5%; margin-top:50px" ng-click="UpdatePaymentLayout()">
+                        <fieldset>
+                            <legend>Payment</legend>
+                            <table border="0">
+                                <tr>
+                                    <td style="float:right;text-align:right; width:50%; font-weight:bold">
+                                        <label class="control-label PaymentBox">Total :</label>
+                                    </td>
+                                    <td style="width:50%; font-weight:bold">
+                                        <input class="form-control PaymentBox" ng-model="Bill.PreviousTotal" type="number" style="width:70%; height:30px; text-align:right" readonly="readonly" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="float:right;text-align:right; width:50%; font-weight:bold">
+                                        <label class="control-label PaymentBox">Discount :</label>
+                                    </td>
+                                    <td style="width:50%; font-weight:bold">
+                                        <input id="txtDiscount" class="form-control PaymentBox" ng-model="Bill.DiscountAmount" type="number" style="width:70%; height:30px; text-align:right" ng-change="UpdatePaymentLayout()" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="float:right;text-align:right; width:50%; font-weight:bold">
+                                        <label class="control-label PaymentBox">Payment :</label>
+                                    </td>
+                                    <td style="width:50%; font-weight:bold">
+                                        <input id="txtPayment" class="form-control PaymentBox" ng-model="Bill.PaidTotal" type="number" style="width:70%; height:30px; text-align:right" ng-change="UpdatePaymentLayout()"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="float:right;text-align:right; width:50%; font-weight:bold">
+                                        <label class="control-label PaymentBox">Due :</label>
+                                    </td>
+                                    <td style="width:50%; font-weight:bold">
+                                        <input class="form-control PaymentBox" ng-model="Bill.DueAmount" type="number" style="width:70%; height:30px; text-align:right" readonly="readonly"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        
+                    </div>
+                </div>
+                <div class="sms-panel-btn" style="margin-top:10px">
+                    <button type="button" ng-click="Close()" class="btn btn-danger" style="float:right; margin-right:10px; margin-left:10px;"><i class="glyphicon glyphicon-off"></i> Close</button>
+                    <button id="btnSave" type="button" ng-click="Save()" class="btn btn-success" style="float:right; "><i class="glyphicon glyphicon-save"></i> Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group-addon.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(50, 118, 177);
+        border-color: rgb(40, 94, 142);
+    }
+
+    .input-group-addon.success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 184, 92);
+        border-color: rgb(76, 174, 76);
+    }
+
+    .input-group-addon.info {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 179, 215);
+        border-color: rgb(38, 154, 188);
+    }
+
+    .input-group-addon.warning {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 173, 78);
+        border-color: rgb(238, 162, 54);
+    }
+
+    .input-group-addon.danger {
+        color: rgb(255, 255, 255);
+        background-color: rgb(217, 83, 79);
+        border-color: rgb(212, 63, 58);
+    }
+    .grid-angular {
+        width: 55%;
+        margin-top:10px;
+        height: 310px;
+    }
+    .PaymentBox{
+        font-size:15px;
+        font-weight:bold;
+    }
+</style>
+<script type="text/javascript">
+debugger;
+var oBill =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+    var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+
+    var oBillDetails =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BillDetails));
+    var oStores =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.Stores));
+    var oStoreProducts =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.StoreProducts));
+    
+    if(sessionStorage.getItem("Operation")=="Edit")
+    {
+        $('#btnRemove').hide();
+        $('#btnAdd').hide();
+        $('#btnSave').hide();
+        $("#txtDiscount").prop('disabled', true); 
+        $("#txtPayment").prop('disabled', true); 
+    }
+
+debugger;
+var BillModule= angular.module('BillApp', ['ui.grid','ui.grid.selection']);
+BillModule.controller('BillController',function ($scope,$http,uiGridConstants)
+{
+    debugger;
+    $scope.Bill = oBill;
+    $scope.Stores = oStores;
+    $scope.StoreProducts = oStoreProducts;
+    $scope.Total = 0.00;
+
+    $scope.gridOptions= {
+        multiSelect: false,
+        enableFullRowSelection: true,
+        showColumnFooter: true,
+        columnDefs: [
+          { field: 'ProductName', name:'ProductName', width:'30%' },
+          { field: 'Quantity', name:'Quantity', width:'25%', cellClass: 'text-right' },
+          { field: 'Price', name:'Price', width:'20%', cellClass: 'text-right' },
+          { field: 'Total', name:'Total', width:'20%', cellClass: 'text-right', cellFilter: 'number: 2',  aggregationType: uiGridConstants.aggregationTypes.sum, aggregationHideLabel: true, footerCellFilter: 'number:2', footerCellClass: 'text-right' },
+        ],
+        data: oBillDetails,
+        onRegisterApi : function(gridApi)
+        {
+            $scope.gridApi = gridApi;
+            $scope.gridApi.selection.clearSelectedRows();
+            $scope.gridApi.core.refresh();
+            if(oBillDetails.length>0 && parseInt(sessionStorage.getItem('SelectedRowIndex'))>=0)
+            {
+                $scope.gridApi.grid.modifyRows(oBillDetails);
+                $scope.gridApi.selection.selectRow(oBillDetails[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+                $scope.RowSelect(oBillDetails[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+            }
+        }
+    };
+    $scope.Save = function(e)
+    {
+        debugger;
+        var oBill = $scope.Bill;
+        oBill.BillDetails = $scope.gridOptions.data;
+        if(oBill.BillDetails.length==0)
+        {
+            alert("There is No Bill Information");
+            return;
+        }
+        if(oBill.CustomerName == null || oBill.CustomerName == "" )
+        {
+            alert("Please Enter The Customer Name");
+            return;
+        }
+        if(oBill.CustomerMobile == null || oBill.CustomerMobile == "" )
+        {
+            alert("Please Enter The Customer Mobile");
+            return;
+        }
+        if($scope.Bill.PreviousTotal == null || $scope.Bill.PreviousTotal == "" || $scope.Bill.PreviousTotal == 0)
+        {
+            alert("Please Enter The Price");
+            return;
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Bill/IUD',oBill).then(
+              function (response)
+              {
+                  var oBill= jQuery.parseJSON(response.data);
+                  if (oBill.ErrorMessage=="" || oBill.ErrorMessage==null)
+                  {
+                      alert("Data Saved Successfully!!");
+                      window.location.href = sessionStorage.getItem("BackLink");
+                  }
+                  else
+                  {
+                      alert(oBill.ErrorMessage);
+                  }
+
+              },
+                  function (response) { alert(jQuery.parseJSON(response.data).Message);$scope.MeasurementUnits=[];}
+          );
+    }
+    $scope.Close = function(e)
+    {
+        window.location.href = sessionStorage.getItem("BackLink");
+    }
+    $scope.LoadBillDetail = function()
+    {
+        debugger;
+        var oProduct = {
+            ProductType : $scope.BillDetail.ProductType
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Product/GetBillDetail',oProduct).then(
+              function (response)
+              {
+                  debugger;
+                  var oBillDetails = jQuery.parseJSON(response.data);
+                  if (oBillDetails.length>0)
+                  {
+                      $scope.BillDetails = oBillDetails;
+                  }
+                  else
+                  {
+                      $scope.BillDetails = [];
+                      alert("No Data Found");
+                  }
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.LoadProducts = function()
+    {
+        debugger;
+        var oStoreProduct = {
+            StoreID : $scope.BillDetail.StoreID
+        }
+        
+        $http.post(sessionStorage.getItem("BaseAddress") + '/StoreProduct/GetByStoreID',oStoreProduct).then(
+              function (response)
+              {
+                  debugger;
+                  var oStoreProducts = jQuery.parseJSON(response.data);
+                  if (oStoreProducts.length>0)
+                  {
+                      $scope.StoreProducts = oStoreProducts;
+                  }
+                  else
+                  {
+                      $scope.StoreProducts = [];
+                      alert("No Data Found");
+                  }
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.LoadDetails = function(e)
+    {
+        $scope.BillDetail.ProductName = $( "#cboProduct option:selected" ).text();
+        //debugger;
+        //var nLength = $scope.Products.length;
+        //for(var i = 0; i<nLength; i++)
+        //{
+        //    if($scope.StoreProduct.ProductID==$scope.Products[i].ProductID)
+        //    {
+        //        $scope.StoreProduct.UnitPrice = $scope.Products[i].UnitPrice;
+        //    }
+        //}
+    }
+
+    $scope.Delete = function(e)
+    {
+        debugger;
+        var data=$scope.gridApi.selection.getSelectedRows();
+        var oBillDetailNew= data[0];//get selected index
+        if(oBillDetailNew==null)
+        {
+            alert("Please select a item from list!");
+            return;
+        }
+        if (!confirm("Confirm to Delete?")) return ;
+        var SelectedRowIndex= $scope.gridOptions.data.indexOf(oBillDetailNew);
+        alert("Delete Successfully!!");
+        $scope.gridOptions.data.splice(SelectedRowIndex,1);
+        $scope.gridApi.core.refresh();
+    }
+    $scope.AddToList = function(e)
+    {
+        debugger;
+
+        if($scope.ProductName == null || $scope.ProductName == "" )
+        {
+            alert("Please Enter The Product");
+            return;
+        }
+        if($scope.Price == null || $scope.Price == "" )
+        {
+            alert("Please Enter The Price");
+            return;
+        }
+        if($scope.Quantity == null || $scope.Quantity == "" )
+        {
+            alert("Please Enter The Quantity");
+            return;
+        }
+        var oBillDetailNew = {
+            BillDetailID : 0,
+            ProductName : $scope.ProductName,
+            BillID : $scope.Bill.BillID,
+            Quantity : $scope.Quantity,
+            Price : $scope.Price,
+            Total : $scope.Total
+        }
+        $scope.gridOptions.data.push(oBillDetailNew);
+        $scope.gridApi.selection.clearSelectedRows();
+        $scope.ProductName = "";
+        $scope.Quantity = 0.0;
+        $scope.Price = 0.0;
+    }
+    $scope.UpdatePaymentLayout = function()
+    {
+        $scope.Bill.PreviousTotal = $scope.gridApi.grid.columns[4].getAggregationValue();
+        $scope.Bill.Total = $scope.gridApi.grid.columns[4].getAggregationValue() - $scope.Bill.DiscountAmount;
+        $scope.Bill.DueAmount = $scope.Bill.Total - $scope.Bill.PaidTotal;
+        //alert($scope.gridApi.grid.columns[4].getAggregationValue());
+    }
+    $scope.AddMoney = function()
+    {
+        $scope.Bill.PaidTotal = $scope.Bill.PaidTotal + $scope.AddMoney;
+    }
+
+    $scope.UpdateTotalPrice = function(e)
+    {
+        $scope.Total = $scope.Price * $scope.Quantity;
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+

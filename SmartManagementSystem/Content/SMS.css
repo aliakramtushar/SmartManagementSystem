@@ -1,0 +1,42 @@
+﻿body {
+}
+
+.sms-panel-header{
+    width:100%;
+    height:40px;
+    font-size:18px;
+    text-align:center;
+}
+
+.sms-panel-btn{
+    width:99%;
+    margin:0 auto;
+}
+.sms-footer{
+    height:20px;
+    position: fixed;
+    font-size:12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.sms-searchBox{
+    padding: 4px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    /*-webkit-transition: 0.5s;
+    transition: 0.5s;*/
+    outline: none;
+}
+.sms-searchBox:focus {
+    border: 2px solid #555;
+}
+.sms-mainBody{                       /*better define yourself*/
+    padding:0px, 15px, 8px, 0px;
+    border: 1px solid blue;
+}
+    

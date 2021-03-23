@@ -1,0 +1,280 @@
+﻿@{
+    ViewBag.Title = "Sell Qty";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-danger">
+    <div class="panel-heading">Sell Qty</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="StoreProductApp" style="height:520px">
+            <div ng-controller="StoreProductController">
+                <div class="container">
+                    <form class="well form-horizontal" style="margin:0 auto; width:80%;margin-top: 10px">
+                        <fieldset>
+                            <div class="form-group" style="margin-top:10px">
+                                <label class="col-md-4 control-label">Product Type</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                                        <select ng-disabled="isDisabled" ng-model="StoreProduct.ProductTypeID" ng-options="obj.ProductTypeID as obj.ProductTypeName for obj in ProductTypes" class="form-control" ng-change="LoadProductCategory()"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Product Category</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                                        <select ng-disabled="isDisabled" ng-model="StoreProduct.ProductCategoryID " ng-options="obj.ProductCategoryID as obj.CategoryName for obj in ProductCategory" class="form-control" ng-change="LoadProducts()"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Product Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                                        <select ng-disabled="isDisabled" ng-model="StoreProduct.ProductID " ng-options="obj.ProductID as obj.ProductName for obj in Products" class="form-control" ng-change="LoadDetails($event)"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Previous Qty</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-retweet"></i></span>
+                                        <input type="number" class="form-control" ng-model="StoreProduct.ProductQty" disabled="disabled" ng-change="UpdateTotalPrice()">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Sell Qty</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-minus"></i></span>
+                                        <input type="number" class="form-control" ng-model="StoreProduct.ProductNewQty" ng-change="UpdateTotalPrice()">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">New Total Qty</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-shopping-cart"></i></span>
+                                        <input type="number" class="form-control" ng-model="Total" disabled="disabled">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Selling Rate</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
+                                        <input type="number" class="form-control" ng-model="StoreProduct.Rate" ng-change="UpdateTotalPrice()">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Customer Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input class="form-control" ng-model="StoreProduct.CustomerName" ng-change="UpdateTotalPrice()">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sms-panel-btn">
+                                <button type="button" ng-click="Close()" class="btn btn-danger" style="float:right; margin-right:10px; margin-left:10px;"><i class="glyphicon glyphicon-off"></i> Close</button>
+                                <button type="button" ng-click="Save()" class="btn btn-success" style="float:right; "><i class="glyphicon glyphicon-save"></i> Save</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .input-group-addon.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(50, 118, 177);
+        border-color: rgb(40, 94, 142);
+    }
+
+    .input-group-addon.success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 184, 92);
+        border-color: rgb(76, 174, 76);
+    }
+
+    .input-group-addon.info {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 179, 215);
+        border-color: rgb(38, 154, 188);
+    }
+
+    .input-group-addon.warning {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 173, 78);
+        border-color: rgb(238, 162, 54);
+    }
+
+    .input-group-addon.danger {
+        color: rgb(255, 255, 255);
+        background-color: rgb(217, 83, 79);
+        border-color: rgb(212, 63, 58);
+    }
+</style>
+<script type="text/javascript">
+debugger;
+var oStoreProduct =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+//var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+var oProductTypes =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.ProductTypes));
+var oContractors =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.Contractors));
+var oProducts =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.Products));
+    var oProductCategorys =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.ProductCategorys));
+
+debugger;
+var StoreProductModule= angular.module('StoreProductApp', ['ui.grid','ui.grid.selection']);
+StoreProductModule.controller('StoreProductController',function ($scope,$http,$filter,uiGridConstants)
+{
+    debugger;
+    $scope.ProductTypes = oProductTypes;
+    $scope.Contractors = oContractors;
+    $scope.Products = oProducts;
+    $scope.ProductCategory = oProductCategorys;
+    $scope.Total = 0.00;
+
+    $scope.StoreProduct = oStoreProduct;
+    if(sessionStorage.getItem("Operation")=="AddQty")
+    {
+        $scope.isDisabled = true;
+    }
+    else
+    {
+        $scope.isDisabled = false;
+    }
+    $scope.LoadProductCategory = function()
+    {
+        debugger;
+        var oProduct = {
+            ProductTypeID : $scope.StoreProduct.ProductTypeID
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Product/GetProductCategory',oProduct).then(
+              function (response)
+              {
+                  debugger;
+                  var oProductCategorys = jQuery.parseJSON(response.data);
+                  if (oProductCategorys.length>0)
+                  {
+                      $scope.ProductCategory = oProductCategorys;
+                  }
+                  else
+                  {
+                      $scope.ProductCategory = [];
+                      alert("No Data Found");
+                  }
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.LoadProducts = function()
+    {
+        debugger;
+        var oProduct = {
+            ProductCategoryID : $scope.StoreProduct.ProductCategoryID,
+            ProductTypeID : $scope.StoreProduct.ProductTypeID
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Product/GetsProductByTypeAndCategory',oProduct).then(
+              function (response)
+              {
+                  debugger;
+                  var oProducts = jQuery.parseJSON(response.data);
+                  if (oProducts.length>0)
+                  {
+                      $scope.Products = oProducts;
+                  }
+                  else
+                  {
+                      $scope.Products = [];
+                      alert("No Data Found");
+                  }
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.LoadDetails = function(e)
+    {
+        debugger;
+        var nLength = $scope.Products.length;
+        for(var i = 0; i<nLength; i++)
+        {
+            if($scope.StoreProduct.ProductID==$scope.Products[i].ProductID)
+            {
+                $scope.StoreProduct.UnitPrice = $scope.Products[i].UnitPrice;
+            }
+        }
+    }
+    $scope.Save = function(e)
+    {
+        debugger;
+        var oStoreProduct = $scope.StoreProduct;
+        if(oStoreProduct.ProductNewQty==0)
+        {
+            alert("Please Add Qty");
+            return;
+        }
+        if($scope.Total<0 || $scope.Total == null)
+        {
+            alert("You Can Not Sell More Than Store Product Quantity");
+            return;
+        }
+        if(oStoreProduct.CustomerName=="" || oStoreProduct.CustomerName == null)
+        {
+            alert("Please Enter The Customer Name");
+            return;
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/StoreProduct/SellProduct',oStoreProduct).then(
+              function (response)
+              {
+                  var oStoreProduct= jQuery.parseJSON(response.data);
+                  if (oStoreProduct.ErrorMessage=="" || oStoreProduct.ErrorMessage==null)
+                  {
+                      alert("Data Saved Successfully!!");
+                      window.location.href = sessionStorage.getItem("BackLink");
+                  }
+                  else
+                  {
+                      alert(oStoreProduct.ErrorMessage);
+                  }
+
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.Close = function(e)
+    {
+        window.location.href = sessionStorage.getItem("BackLink");
+    }
+    $scope.UpdateTotalPrice = function(e)
+    {
+        $scope.Total = $scope.StoreProduct.ProductQty - $scope.StoreProduct.ProductNewQty;
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

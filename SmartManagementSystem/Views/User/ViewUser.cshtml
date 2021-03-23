@@ -1,0 +1,185 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">Add New User</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="UserApp" style="height:520px">
+            <div ng-controller="UserController">
+                <div class="container">
+                    <form class="well form-horizontal" style="margin:0 auto; width:80%;margin-top: 20px">
+                        <fieldset>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Login ID</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input type="text" placeholder="Enter Your Login Unse Name" class="form-control" ng-model="User.UserName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">User Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input type="text" placeholder="Enter Your Name" class="form-control" ng-model="User.UserShortName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Email</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                        <input type="text" placeholder="Enter Your Email Address" class="form-control" ng-model="User.Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Phone Number</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                        <input type="text" placeholder="Enter Your Phone Number" class="form-control" ng-model="User.Mobile">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">User Type</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
+                                        <select ng-model="User.UserType" ng-options="obj.Id as obj.Name for obj in UserTypes" ng-disabled="disabled" class="form-control"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Password</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input type="password" placeholder="Enter Your Full Name" class="form-control" ng-model="User.Password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Confirm Password</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input type="password" placeholder="Enter Your Full Name" class="form-control" ng-model="ConfirmPassword">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Activity</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                        <input type="checkbox" checked data-toggle="toggle" ng-model="User.Activity">
+                                </div>
+                            </div>
+                            <div class="sms-panel-btn">
+                                <button type="button" ng-click="Close()"class="btn btn-danger"  style="float:right; margin-right:10px; margin-left:10px;"><i class="glyphicon glyphicon-off"></i> Close</button>
+                                <button type="button" ng-click="Save()" class="btn btn-success" style="float:right; "><i class="glyphicon glyphicon-save"></i> Save</button>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .input-group-addon.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(50, 118, 177);
+        border-color: rgb(40, 94, 142);
+    }
+    .input-group-addon.success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 184, 92);
+        border-color: rgb(76, 174, 76);
+    }
+    .input-group-addon.info {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 179, 215);
+        border-color: rgb(38, 154, 188);
+    }
+    .input-group-addon.warning {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 173, 78);
+        border-color: rgb(238, 162, 54);
+    }
+    .input-group-addon.danger {
+        color: rgb(255, 255, 255);
+        background-color: rgb(217, 83, 79);
+        border-color: rgb(212, 63, 58);
+    }
+</style>
+<script type="text/javascript">
+debugger;
+var oUser =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+var UserTypes =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.UserTypes));
+
+
+    
+
+debugger;
+var UserModule= angular.module('UserApp', ['ui.grid','ui.grid.selection']);
+UserModule.controller('UserController',function ($scope,$http,uiGridConstants)
+{
+    debugger;
+    $scope.User = oUser;
+    $scope.UserTypes = UserTypes;
+    $scope.Save = function(e)
+    {
+        debugger;
+        var oUser = $scope.User;
+        if($scope.User.UserType <= 0 || $scope.User.UserType==null)
+        {
+            alert("Please Select The User Type");
+            return;
+        }
+        if($scope.ConfirmPassword != oUser.Password)
+        {
+            alert("Password Is Not Same");
+            return;
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/User/IUD',oUser).then(
+              function (response)
+              {
+                  var oUser= jQuery.parseJSON(response.data);
+                  if (oUser.ErrorMessage=="" || oUser.ErrorMessage==null)
+                  {
+                      alert("Data Saved Successfully!!");
+                      window.location.href = sessionStorage.getItem("BackLink");
+                  }
+                  else
+                  {
+                      alert(oUser.ErrorMessage);
+                  }
+
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.Close = function(e)
+    {
+        window.location.href = sessionStorage.getItem("BackLink");
+    }
+});
+
+
+</script>
+
+
+
+
+        
+
+
+
+

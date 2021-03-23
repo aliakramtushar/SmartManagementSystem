@@ -1,0 +1,177 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Add Product</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="ProductApp" style="height:520px">
+            <div ng-controller="ProductController">
+                <div class="container">
+                    <form class="well form-horizontal" style="margin:0 auto; width:80%;margin-top: 40px">
+                        <fieldset>
+                            <div class="form-group" style="margin-top:25px">
+                                <label class="col-md-4 control-label">Product Type</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                                        <select ng-model="Product.ProductTypeID" ng-options="obj.ProductTypeID as obj.ProductTypeName for obj in ProductTypes" ng-disabled="disabled" class="form-control" ng-change="LoadProductCategory()"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Product Category</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-chevron-down"></i></span>
+                                        <select ng-model="Product.ProductCategoryID" ng-options="obj.ProductCategoryID as obj.CategoryName for obj in ProductCategory" ng-disabled="disabled" class="form-control"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Product Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                                        <input type="text" placeholder="Enter Product Name" class="form-control" ng-model="Product.ProductName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Product Code </label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-qrcode"></i></span>
+                                        <input type="text" placeholder="Enter Product Code" class="form-control" ng-model="Product.ProductCode">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Unit Price</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
+                                        <input type="number" placeholder="Enter Your Short Name" class="form-control" ng-model="Product.UnitPrice">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sms-panel-btn">
+                                <button type="button" ng-click="Close()" class="btn btn-danger" style="float:right; margin-right:10px; margin-left:10px;"><i class="glyphicon glyphicon-off"></i> Close</button>
+                                <button type="button" ng-click="Save()" class="btn btn-success" style="float:right; "><i class="glyphicon glyphicon-save"></i> Save</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .input-group-addon.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(50, 118, 177);
+        border-color: rgb(40, 94, 142);
+    }
+
+    .input-group-addon.success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 184, 92);
+        border-color: rgb(76, 174, 76);
+    }
+
+    .input-group-addon.info {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 179, 215);
+        border-color: rgb(38, 154, 188);
+    }
+
+    .input-group-addon.warning {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 173, 78);
+        border-color: rgb(238, 162, 54);
+    }
+
+    .input-group-addon.danger {
+        color: rgb(255, 255, 255);
+        background-color: rgb(217, 83, 79);
+        border-color: rgb(212, 63, 58);
+    }
+</style>
+<script type="text/javascript">
+debugger;
+var oProduct =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+    var ProductTypes =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.ProductTypes));
+    var ProductCategorys =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.ProductCategorys));
+    
+debugger;
+var ProductModule= angular.module('ProductApp', ['ui.grid','ui.grid.selection']);
+ProductModule.controller('ProductController',function ($scope,$http,$filter,uiGridConstants)
+{
+    debugger;
+    $scope.ProductTypes = ProductTypes;
+    $scope.ProductCategory = ProductCategorys;
+    $scope.Product = oProduct;
+
+    $scope.LoadProductCategory = function()
+    {
+        debugger;
+        var oProduct = $scope.Product;
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Product/GetProductCategory',oProduct).then(
+              function (response)
+              {
+                  debugger;
+                  var oProductCategorys = jQuery.parseJSON(response.data);
+                  if (oProductCategorys.length>0)
+                  {
+                      $scope.ProductCategory = oProductCategorys;
+                  }
+                  else
+                  {
+                      $scope.ProductCategory = oProductCategorys;
+                      alert("No Data Found");
+                  }
+
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.Save = function(e)
+    {
+        debugger;
+        var oProduct = $scope.Product;
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Product/IUD',oProduct).then(
+              function (response)
+              {
+                  var oProduct= jQuery.parseJSON(response.data);
+                  if (oProduct.ErrorMessage=="" || oProduct.ErrorMessage==null)
+                  {
+                      alert("Data Saved Successfully!!");
+                      window.location.href = sessionStorage.getItem("BackLink");
+                  }
+                  else
+                  {
+                      alert(oProduct.ErrorMessage);
+                  }
+
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.Close = function(e)
+    {
+        window.location.href = sessionStorage.getItem("BackLink");
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>ViewLogin</title>
+</head>
+<body>
+    <div class="col-md-6" style="margin:0px;padding:0px">
+        <img src="~/Resources/Image/Login.jpg" class="img-responsive" style="margin-top:20px; margin-left:200px;padding:0px;height:500px">
+        <h4 style="margin-left:320px"><b>Ismail Hossain</b> </h4>
+        <h4 style="margin-left:230px"><b>Bangladesh Electrical Association</b> </h4>
+    </div>
+    <div class="col-md-3" style="margin-top:1%;">
+        <h1 style="text-align:center; font-weight:bold">Smart Management System</h1>
+        <h2 style="text-align:center; margin-bottom:40px; margin-top:30%">(User Login)</h2>
+        <input type="text" class="form-control loginInput" id="txtUserName" placeholder="User Name" />
+        <input type="password" class="form-control loginInput" id="txtPassword" placeholder="Password" />
+        <input type="button" class="form-control loginInput btnLogin" value="Login" id="btnLogin" placeholder="Password" />    
+    </div>
+</body>
+</html>
+<style>
+    .loginInput{
+        width:100%;
+        height:30px;
+        margin: 8px auto;
+    }
+    .btnLogin{
+        color:white;
+        background-color:green;
+        border:1px black;
+        font-size:16px;
+        font-weight:bold;
+    }
+</style>
+<script type="text/javascript">
+    var _sBaseAddress = window.location.origin;
+    debugger;
+
+    var nCountLoginTimes = 0;
+    $('#btnLogin').click(function () {
+        debugger;
+        var oUser = {
+            UserName : $('#txtUserName').val(),
+            Password: $('#txtPassword').val(),
+        }
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: _sBaseAddress + "/Home/ValidateLogin",
+            traditional: true,
+            data: JSON.stringify(oUser),
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                debugger;
+                oUser = (data);
+                if (oUser.UserID > 0) {
+                    sessionStorage.setItem("User", JSON.stringify(oUser));
+                    sessionStorage.setItem("BaseAddress", _sBaseAddress);
+                    window.location.href = _sBaseAddress + "/Home/Index";
+                }
+                else {
+                    nCountLoginTimes++;
+                    alert("Login Failed");
+                    if(nCountLoginTimes>5)
+                    {
+                        
+                    }
+                }
+            },
+            error: function (xhr, status, error) {
+                alert(error);
+            }
+
+        });
+    });
+
+
+
+</script>

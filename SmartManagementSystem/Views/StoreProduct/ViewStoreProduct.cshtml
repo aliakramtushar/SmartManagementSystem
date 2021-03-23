@@ -1,0 +1,273 @@
+﻿
+@{
+    ViewBag.Title = "Add Products Into Store";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading"><label id="lblStoreName"></label></div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="StoreApp" style="height:520px">
+            <div ng-controller="StoreController">
+                <div class="sms-panel-btn">
+                    <button type="button" class="btn btn-sm btn-default" ng-click="Close()"><i class="glyphicon glyphicon-arrow-left"></i></button>
+                    <input type="text" class="sms-searchBox" ng-model="ProductName" style="width:180px" placeholder="Search by Name Or Code" />
+                    <button type="button" class="btn btn-sm btn-primary" ng-click="Search()"><i class="glyphicon glyphicon-search"></i> Search</button>
+                    <button type="button" class="btn btn-sm btn-warning" ng-click="NewProduct()"><i class="glyphicon glyphicon-plus"></i> New Product Entry</button>
+                    <button type="button" class="btn btn-sm btn-danger" ng-click="Delete()"><i class="glyphicon glyphicon-minus"></i> Delete</button>
+                    <button type="button" class="btn btn-sm btn-success" ng-click="ProductQtyEntry()" style="margin-left:400px"><i class="glyphicon glyphicon-plus"></i> Add Quantity</button>
+                    <button type="button" class="btn btn-sm btn-info" ng-click="Sell()"><i class="glyphicon glyphicon-minus"></i> Sell</button>
+                </div>
+                <div class="col-md-12">
+                    <div ui-grid="gridOptions" ui-grid-selection class="grid-angular" ui-grid-resize-columns></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    .grid-angular {
+        width: 100%;
+        height: 472px;
+        padding:0px;
+    }
+</style>
+<script type="text/javascript">
+    debugger;
+    var oStore =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+    var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+    var oStoreProducts =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.StoreProducts));
+    var oContractors =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.Contractors));
+    var oProductTypes =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.ProductTypes));
+
+    var sHeader = "";
+    sHeader = "Store Name : " + oStore.StoreName + "||    Capacity : " + oStore.Capacity;
+    $('#lblStoreName').text(sHeader);
+    debugger;
+    var StoreModule= angular.module('StoreApp', ['ui.grid','ui.grid.selection','ui.grid.resizeColumns']);
+    StoreModule.controller('StoreController',function ($scope,$http,uiGridConstants)
+    {
+        $scope.Store = oStore;
+        $scope.Contractors = oContractors;
+        $scope.ProductTypes = oProductTypes;
+
+        
+
+        //oStores = (sessionStorage.getItem('Stores')!=null)? JSON.parse(sessionStorage.getItem('Stores')) : oStores;
+        debugger;
+        $scope.gridOptions= {
+            multiSelect: false,
+            enableFullRowSelection: true,
+            showColumnFooter: true,
+            enableSorting: true,
+            multiSelect:false,
+            enableColumnResize: true,
+            columnDefs: [
+              { field: 'ProductName', name:'Product Name', width:'22%' },
+              { field: 'ProductCode', name:'Product Code', width:'12%' },
+              { field: 'ProductTypeName', name:'Product Type', width:'14%'  },
+              { field: 'ProductQty', name:'Qty', width:'15%' , cellClass: 'text-right', cellFilter: 'number: 2',  aggregationType: uiGridConstants.aggregationTypes.sum, aggregationHideLabel: true, footerCellFilter: 'number:2', footerCellClass: 'text-right' },
+              //{ field: 'UnitPrice', name:'Rate', width:'15%' , cellClass: 'text-right', cellFilter: 'number: 2'},
+              //{ field: 'TotalPrice', name:'Total', width:'15%' , cellClass: 'text-right', cellFilter: 'number: 2',  aggregationType: uiGridConstants.aggregationTypes.sum, aggregationHideLabel: true, footerCellFilter: 'number:2', footerCellClass: 'text-right' },
+              { field: 'StoreEntryDateSt', name:'Store Entry Date', width:'15%' },
+              { field: 'StoreDateSt', name:'Last Updated Date', width:'15%' },
+              { field: 'ContractorName', name:'Supplier Name', width:'25%' },
+            ],
+            data: oStoreProducts,
+            onRegisterApi : function(gridApi)
+            {
+                $scope.gridApi = gridApi;
+                $scope.gridApi.selection.clearSelectedRows();
+                $scope.gridApi.core.refresh();
+                if(oStoreProducts.length>0 && parseInt(sessionStorage.getItem('SelectedRowIndex'))>=0)
+                {
+                    $scope.gridApi.grid.modifyRows(oStoreProducts);
+                    $scope.gridApi.selection.selectRow(oStoreProducts[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+                }
+            }
+        };
+        $scope.ProductQtyEntry = function(e)
+        {
+            debugger;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oStoreProduct = data[0];//get selected index
+            if(oStoreProduct == null)
+            {
+                alert("Please Select A Store Product");
+                return;
+            }
+            if(oStoreProduct.StoreID<1 || oStoreProduct.StoreID == null)
+            {
+                alert("Please Select A Store");
+                return;
+            }
+            if(oStoreProduct.ProductID<1 || oStoreProduct.ProductID == null)
+            {
+                alert("Please Select A Product");
+                return;
+            }
+            sessionStorage.setItem("BackLink", window.location.href);
+            sessionStorage.setItem("Operation", "AddQty");
+            window.location.href = sessionStorage.getItem("BaseAddress") +  "/StoreProduct/ViewAddProductQty?nStoreID="+oStore.StoreID + "&nStoreProductID="+oStoreProduct.ProductID;
+        }
+        $scope.Sell = function(e)
+        {
+            debugger;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oStoreProduct = data[0];//get selected index
+            if(oStoreProduct == null)
+            {
+                alert("Please Select A Store Product");
+                return;
+            }
+            if(oStoreProduct.StoreID<1 || oStoreProduct.StoreID == null)
+            {
+                alert("Please Select A Store");
+                return;
+            }
+            if(oStoreProduct.ProductID<1 || oStoreProduct.ProductID == null)
+            {
+                alert("Please Select A Product");
+                return;
+            }
+            sessionStorage.setItem("BackLink", window.location.href);
+            sessionStorage.setItem("Operation", "AddQty");
+            window.location.href = sessionStorage.getItem("BaseAddress") +  "/StoreProduct/ViewSellProductQty?nStoreID="+oStore.StoreID + "&nStoreProductID="+oStoreProduct.ProductID;
+        }
+        $scope.NewProduct = function(e)
+        {
+            debugger;
+            if($scope.Store.StoreID<1)
+            {
+                alert("Please Get A Store");
+                return;
+            }
+            var  nStoreProductID = 0;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oStoreProduct = data[0];//get selected index
+            if(oStoreProduct != null || oStoreProduct != undefined)
+            {
+                nStoreProductID = oStoreProduct.StoreProductID;
+            }
+            sessionStorage.setItem("BackLink", window.location.href);
+            sessionStorage.setItem("Operation", "NewProduct");
+            window.location.href = sessionStorage.getItem("BaseAddress") +  "/StoreProduct/ViewAddProducts?nStoreID="+oStore.StoreID + "&nStoreProductID="+0;
+        }
+        //$scope.Edit = function(e)
+        //{
+        //    //debugger;
+        //    //var data=$scope.gridApi.selection.getSelectedRows();
+        //    //var oStore= data[0];//get selected index
+        //    //if(oStore==null || oStore.StoreID<=0)
+        //    //{
+        //    //    alert("Please select a item from list!");
+        //    //    return;
+        //    //}
+        //    var SelectedRowIndex= $scope.gridOptions.data.indexOf(oStore);
+        //    sessionStorage.setItem("Stores", JSON.stringify($scope.gridOptions.data));
+        //    sessionStorage.setItem("Operation", "Edit");
+        //    sessionStorage.setItem("SelectedRowIndex", SelectedRowIndex);
+        //    sessionStorage.setItem("PageHeader", "Edit Store");
+        //    sessionStorage.setItem("BackLink", window.location.href);
+        //    window.location.href = sessionStorage.getItem("BaseAddress") +  "/Store/ViewStore?nStoreID="+oStore.StoreID;
+        //}
+        $scope.Delete = function()
+        {
+                debugger;
+                var data=$scope.gridApi.selection.getSelectedRows();
+                var oStoreProduct = data[0];//get selected index
+                if(oStoreProduct == null || oStoreProduct == undefined)
+                {
+                    alert("Please select a item from list!");
+                    return;
+                }
+                if(oStoreProduct.ProductQty>1)
+                {
+                    alert("You Can Not Delete This Store. This Is Not Empty !!");
+                    return;
+                }
+                if (!confirm("Confirm to Delete?")) return ;
+                var SelectedRowIndex= $scope.gridOptions.data.indexOf(oStoreProduct);
+
+                $http.post(sessionStorage.getItem("BaseAddress") + '/StoreProduct/Delete',oStoreProduct).then(
+                      function (response)
+                      {
+                          var oStoreProduct= jQuery.parseJSON(response.data);
+                          if (oStoreProduct.ErrorMessage=="" || oStoreProduct.ErrorMessage==null)
+                          {
+                              alert("Delete Successfully!!");
+                              $scope.gridOptions.data.splice(SelectedRowIndex,1);
+                              $scope.gridApi.core.refresh();
+                          }
+                          else
+                          {
+                              alert(oStoreProduct.ErrorMessage);
+                          }
+
+                      },
+                          function (response) { alert(response.statusText);}
+                  );
+        }
+        $scope.Search = function()
+        {
+            debugger;
+            if($scope.ProductName == null || $scope.ProductName == "")
+            {
+                alert("Please Enter a Product Name Or Code !!");
+                return;
+            }
+            var oData = {
+                StoreID : $scope.Store.StoreID,
+                ProductName : $scope.ProductName
+            }
+            $http.post(sessionStorage.getItem("BaseAddress") + '/StoreProduct/Search',oData).then(
+                  function (response)
+                  {
+                      debugger;
+                      var oDatas = jQuery.parseJSON(response.data);
+                      if (oDatas.length>0)
+                      {
+                          $scope.gridOptions.data = oDatas;
+                      }
+                      else
+                      {
+                          alert("No Data Found");
+                      }
+                  },
+                      function (response) { alert(jQuery.parseJSON(response.data).Message);}
+              );
+        }
+        $scope.Close = function()
+        {
+            window.location.href = sessionStorage.getItem("BackLinkMainPage");
+        }
+        $scope.LoadProducts = function()
+        {
+            debugger;
+            var oProduct = $scope.Product;
+            $http.post(sessionStorage.getItem("BaseAddress") + '/Product/GetProducts',oProduct).then(
+                  function (response)
+                  {
+                      debugger;
+                      var oProductCategorys = jQuery.parseJSON(response.data);
+                      if (oProductCategorys.length>0)
+                      {
+                          $scope.ProductCategory = oProductCategorys;
+                      }
+                      else
+                      {
+                          $scope.ProductCategory = oProductCategorys;
+                          alert("No Data Found");
+                      }
+
+                  },
+                       function (response) { alert(response.statusText);}
+              );
+        }
+    });
+
+
+</script>
+

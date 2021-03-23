@@ -1,0 +1,209 @@
+﻿@{
+    ViewBag.Title = "Bill List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-danger">
+    <div class="panel-heading">Due Bill List</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="BillApp" style="height:520px">
+            <div ng-controller="BillController">
+                <div class="sms-panel-btn">
+                    @*<button type="button" class="btn btn-sm btn-default" ng-click="Close()"><i class="glyphicon glyphicon-arrow-left"></i></button>*@
+                    <input type="text" class="sms-searchBox" ng-model="BillNo" style="width:200px" placeholder="Search by Bill Or Customer" />
+                    <button type="button" class="btn btn-sm btn-primary" ng-click="Search()"><i class="glyphicon glyphicon-search"></i> Search</button>
+                    <button type="button" class="btn btn-sm btn-success" ng-hide="btnAdd" ng-click="Add()"><i class="glyphicon glyphicon-plus"></i> Add New</button>
+                    <button type="button" class="btn btn-sm btn-warning" ng-click="Edit()"><i class="glyphicon glyphicon-edit"></i> View</button>
+                    <button type="button" id="btnDelete" class="btn btn-sm btn-danger" ng-click="Delete()" disabled="disabled"><i class="glyphicon glyphicon-minus"></i> Delete</button>
+                    <button type="button" ng-click="Print()" class="btn btn-sm btn-default"><i class="glyphicon glyphicon-print"></i> Preview</button>
+                </div>
+                <div>
+                    <div ui-grid="gridOptions" ui-grid-selection class="grid-angular"  ui-grid-resize-columns></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    .grid-angular {
+        width: 100%;
+        height: 475px;
+    }
+</style>
+<script type="text/javascript">
+    debugger;
+    var oBills =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+    var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+    var nPermittedUser =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.User));
+    if(nPermittedUser.UserType==1)
+    {
+        document.getElementById("btnDelete").disabled = false;
+    }
+    debugger;
+    var BillModule= angular.module('BillApp', ['ui.grid','ui.grid.selection','ui.grid.resizeColumns']);
+    BillModule.controller('BillController',function ($scope,$http,uiGridConstants)
+    {
+        debugger; 
+        $scope.btnAdd = false;
+        $scope.gridOptions= {
+            multiSelect: false,
+            enableFullRowSelection: true,
+            columnDefs: [
+              { field: 'BillNo', name:'BillNo', width:'12%' },
+              { field: 'CustomerName', name:'CustomerName', width:'22%',},
+              { field: 'CustomerMobile', name:'Moblie', width:'15%'},
+              { field: 'PreviousTotal', name:'Total', width:'12%', cellFilter: 'number: 2',},
+              { field: 'TotalPaidAmount', name:'PaidTotal', width:'12%', cellFilter: 'number: 2', },
+              { field: 'DueAmount', name:'DueAmount', width:'12%', cellFilter: 'number: 2', },
+              { field: 'DiscountAmount', name:'Discount', width:'12%', cellFilter: 'number: 2', },
+            ],
+            data: oBills,
+            onRegisterApi : function(gridApi)
+            {
+                $scope.gridApi = gridApi;
+                $scope.gridApi.selection.clearSelectedRows();
+                $scope.gridApi.core.refresh();
+                if(oBills.length>0 && parseInt(sessionStorage.getItem('SelectedRowIndex'))>=0)
+                {
+                    $scope.gridApi.grid.modifyRows(oBills);
+                    $scope.gridApi.selection.selectRow(oBills[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+                    $scope.RowSelect(oBills[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+                }
+                $scope.gridApi.selection.on.rowSelectionChanged($scope, function (row) {
+                    $scope.RowSelect(row.entity ); });
+            }
+        };
+        $scope.RowSelect =  function (entity){
+            debugger;
+            if(entity.BillID_Ref > 0){
+                $scope.btnAdd = true;
+            }
+            else
+            {
+                $scope.btnAdd = false;
+            }
+        }
+        $scope.Add = function(e)
+        {
+            debugger;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oBill= data[0];//get selected index
+            if(oBill==null || oBill.BillID<=0)
+            {
+                alert("Please select a item from list!");
+                return;
+            }
+            var SelectedRowIndex= $scope.gridOptions.data.indexOf(oBill);
+            sessionStorage.setItem("Bills", JSON.stringify($scope.gridOptions.data));
+            sessionStorage.setItem("Operation", "Add");
+            sessionStorage.setItem("PageHeader", "Add Bill");
+            sessionStorage.setItem("BackLink", window.location.href);
+            window.location.href = sessionStorage.getItem("BaseAddress") +  "/Bill/ViewDueBill?nBillID="+oBill.BillID;
+        }
+        $scope.Edit = function(e)
+        {
+            debugger;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oBill= data[0];//get selected index
+            if(oBill==null || oBill.BillID<=0)
+            {
+                alert("Please select a item from list!");
+                return;
+            }
+            var SelectedRowIndex= $scope.gridOptions.data.indexOf(oBill);
+            sessionStorage.setItem("Bills", JSON.stringify($scope.gridOptions.data));
+            sessionStorage.setItem("Operation", "Edit");
+            sessionStorage.setItem("SelectedRowIndex", SelectedRowIndex);
+            sessionStorage.setItem("PageHeader", "Edit Bill");
+            sessionStorage.setItem("BackLink", window.location.href);
+            window.location.href = sessionStorage.getItem("BaseAddress") +  "/Bill/ViewBill?nBillID="+oBill.BillID;
+        }
+        $scope.Close = function()
+        {
+            window.location.href = sessionStorage.getItem("BackLinkMainPageBill");
+        }
+        $scope.Delete = function()
+        {
+                debugger;
+                var data=$scope.gridApi.selection.getSelectedRows();
+                var oBill= data[0];//get selected index
+                if(oBill==null || oBill.BillID<=0)
+                {
+                    alert("Please select a item from list!");
+                    return;
+                }
+                if (!confirm("Confirm to Delete?")) return ;
+                var SelectedRowIndex= $scope.gridOptions.data.indexOf(oBill);
+
+                $http.post(sessionStorage.getItem("BaseAddress") + '/Bill/Delete',oBill).then(
+                      function (response)
+                      {
+                          debugger;
+                          var oBill= jQuery.parseJSON(response.data);
+                          if (oBill.ErrorMessage=="" || oBill.ErrorMessage==null)
+                          {
+                              alert("Delete Successfully!!");
+                              $scope.gridOptions.data.splice(SelectedRowIndex,1);
+                              $scope.gridApi.core.refresh();
+                          }
+                          else
+                          {
+                              alert(oBill.ErrorMessage);
+                          }
+
+                      },
+                          function (response) { alert(response.statusText);}
+                  );
+        }
+        $scope.Search = function()
+        {
+            debugger;
+            if($scope.BillNo == null || $scope.BillNo == "")
+            {
+                alert("Please Enter a Bill No Or Customer Information!!");
+                return;
+            }
+            var oData = {
+                BillNo : $scope.BillNo,
+            }
+            $http.post(sessionStorage.getItem("BaseAddress") + '/Bill/Search',oData).then(
+                  function (response)
+                  {
+                      debugger;
+                      var oDatas = jQuery.parseJSON(response.data);
+                      if (oDatas.length>0)
+                      {
+                          $scope.gridOptions.data = oDatas;
+                      }
+                      else
+                      {
+                          alert("No Data Found");
+                      }
+                  },
+                      function (response) { alert(jQuery.parseJSON(response.data).Message);}
+              );
+        }
+
+      
+
+        $scope.Print = function()
+        {
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oBill= data[0];//get selected index
+            if(oBill==null || oBill.BillID<=0)
+            {
+                alert("Please select a item from list!");
+                return;
+            }
+            if( oBill.BillID_Ref>0)
+            {
+                oBill.BillID= oBill.BillID_Ref
+            }
+            window.open(sessionStorage.getItem("BaseAddress") +  "/Bill/PrintBillHistory?nBillID="+oBill.BillID);
+        }
+    });
+
+
+</script>
+

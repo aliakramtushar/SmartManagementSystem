@@ -1,0 +1,108 @@
+H:\New Practice\SmartManagementSystem\Reports\bin\Debug\Reports.dll
+H:\New Practice\SmartManagementSystem\Reports\bin\Debug\Reports.pdb
+H:\New Practice\SmartManagementSystem\Reports\bin\Debug\BusinessObject.dll
+H:\New Practice\SmartManagementSystem\Reports\bin\Debug\BusinessObject.pdb
+H:\New Practice\SmartManagementSystem\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\New Practice\SmartManagementSystem\Reports\obj\Debug\Reports.dll
+H:\New Practice\SmartManagementSystem\Reports\obj\Debug\Reports.pdb
+H:\New Practice\Smart Management System\Reports\bin\Debug\Reports.dll
+H:\New Practice\Smart Management System\Reports\bin\Debug\Reports.pdb
+H:\New Practice\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+H:\New Practice\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+H:\New Practice\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\New Practice\Smart Management System\Reports\obj\Debug\Reports.dll
+H:\New Practice\Smart Management System\Reports\obj\Debug\Reports.pdb
+H:\New Practice\Timu Copy\Smart Management System\Reports\bin\Debug\Reports.dll
+H:\New Practice\Timu Copy\Smart Management System\Reports\bin\Debug\Reports.pdb
+H:\New Practice\Timu Copy\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+H:\New Practice\Timu Copy\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+H:\New Practice\Timu Copy\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+H:\New Practice\Timu Copy\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+H:\New Practice\Timu Copy\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\New Practice\Timu Copy\Smart Management System\Reports\obj\Debug\Reports.dll
+H:\New Practice\Timu Copy\Smart Management System\Reports\obj\Debug\Reports.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\itextsharp.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\bin\Debug\Reports.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\bin\Debug\Reports.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\obj\Debug\Reports.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Reports\obj\Debug\Reports.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\Reports.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Reports\obj\Debug\Reports.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\Reports.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\Reports.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\BusinessObject.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\itextsharp.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\SMSEngine.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\BusinessObject.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\bin\Debug\SMSEngine.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\obj\Debug\Reports.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Reports\obj\Debug\Reports.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\bin\Debug\Reports.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\bin\Debug\Reports.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\bin\Debug\BusinessObject.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\bin\Debug\SMSEngine.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\bin\Debug\BusinessObject.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\bin\Debug\SMSEngine.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\obj\Debug\Reports.csprojAssemblyReference.cache
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\obj\Debug\Reports.csproj.CopyComplete
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\obj\Debug\Reports.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Reports\obj\Debug\Reports.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\Reports.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\Reports.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\BusinessObject.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\itextsharp.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\SMSEngine.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\BusinessObject.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\bin\Debug\SMSEngine.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\obj\Debug\Reports.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Reports\obj\Debug\Reports.pdb

@@ -1,0 +1,152 @@
+﻿@{
+    ViewBag.Title = "Product Type";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">Product Type List</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="ProductTypeApp" style="height:520px">
+            <div ng-controller="ProductTypeController">
+                <div class="sms-panel-btn">
+                    <input type="text" class="sms-searchBox" ng-model="ProductTypeName" ng-keyup="Search()" style="width:180px" placeholder="Search by Name Or Code" />
+                    <button type="button" class="btn btn-sm btn-primary" ng-click="Search()"><i class="glyphicon glyphicon-search"></i> Search</button>
+                    <button type="button" ng-click="Add()" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-plus"></i> Add New</button>
+                    <button type="button" ng-click="Edit()" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i> Edit</button>
+                    <button type="button" ng-click="Delete()" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-minus"></i> Delete</button>
+                </div>
+                <div>
+                    <div ui-grid="gridOptions" ui-grid-selection class="grid-angular"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    .grid-angular {
+        width: 100%;
+        height: 475px;
+    }
+</style>
+<script type="text/javascript">
+    debugger;
+    var oProductTypes =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+    var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+
+    debugger;
+    var ProductTypeModule= angular.module('ProductTypeApp', ['ui.grid','ui.grid.selection']);
+    ProductTypeModule.controller('ProductTypeController',function ($scope,uiGridConstants,$http)
+    {
+        debugger;
+        $scope.gridOptions= {
+            multiSelect: false,
+            enableFullRowSelection: true,
+            columnDefs: [
+              { field: 'ProductTypeName', name:'Type Name', width:'30%' },
+              { field: 'ProductTypeCode', name:'Code', width:'20%' },
+            ],
+            data: oProductTypes,
+            onRegisterApi : function(gridApi)
+            {
+                $scope.gridApi = gridApi;
+                $scope.gridApi.selection.clearSelectedRows();
+                $scope.gridApi.core.refresh();
+                if(oProductTypes.length>0 && parseInt(sessionStorage.getItem('SelectedRowIndex'))>=0)
+                {
+                    $scope.gridApi.grid.modifyRows(oProductTypes);
+                    $scope.gridApi.selection.selectRow(oProductTypes[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+                    $scope.RowSelect(oProductTypes[parseInt(sessionStorage.getItem('SelectedRowIndex'))]);
+                }
+            }
+        };
+        $scope.Add = function(e)
+        {
+            sessionStorage.setItem("ProductTypes", JSON.stringify($scope.gridOptions.data));
+            sessionStorage.setItem("Operation", "Add");
+            sessionStorage.setItem("PageHeader", "Add ProductType");
+            sessionStorage.setItem("BackLink", window.location.href);
+            window.location.href = "/ProductType/ViewProductType?nProductTypeID=0";
+        }
+        $scope.Edit = function(e)
+        {
+            debugger;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oProductType= data[0];//get selected index
+            if(oProductType==null || oProductType.ProductTypeID<=0)
+            {
+                alert("Please select a item from list!");
+                return;
+            }
+            var SelectedRowIndex= $scope.gridOptions.data.indexOf(oProductType);
+            sessionStorage.setItem("ProductTypes", JSON.stringify($scope.gridOptions.data));
+            sessionStorage.setItem("Operation", "Edit");
+            sessionStorage.setItem("SelectedRowIndex", SelectedRowIndex);
+            sessionStorage.setItem("PageHeader", "Edit ProductType");
+            sessionStorage.setItem("BackLink", window.location.href);
+            window.location.href = sessionStorage.getItem("BaseAddress") +  "/ProductType/ViewProductType?nProductTypeID="+oProductType.ProductTypeID;
+        }
+        $scope.Delete = function()
+        {
+            debugger;
+            var data=$scope.gridApi.selection.getSelectedRows();
+            var oProductType= data[0];
+            if(oProductType==null || oProductType.ProductTypeID<=0)
+            {
+                alert("Please select a item from list!");
+                return;
+            }
+            if (!confirm("Confirm to Delete?")) return ;
+            var SelectedRowIndex= $scope.gridOptions.data.indexOf(oProductType);
+
+            $http.post(sessionStorage.getItem("BaseAddress") + '/ProductType/Delete',oProductType).then(
+                  function (response)
+                  {
+                      var oProductType= jQuery.parseJSON(response.data);
+                      if (oProductType.ErrorMessage=="" || oProductType.ErrorMessage==null)
+                      {
+                          alert("Delete Successfully!!");
+                          $scope.gridOptions.data.splice(SelectedRowIndex,1);
+                          $scope.gridApi.core.refresh();
+                      }
+                      else
+                      {
+                          alert(oProductType.ErrorMessage);
+                      }
+                  },
+                       function (response) { alert(response.statusText);}
+              );
+        }
+        $scope.Search = function()
+        {
+            debugger;
+            if($scope.ProductTypeName == null || $scope.ProductTypeName == "")
+            {
+                alert("Please Enter a Product Type Name Or Code !!");
+                return;
+            }
+            var oData = {
+                ProductTypeName : $scope.ProductTypeName,
+            }
+            $http.post(sessionStorage.getItem("BaseAddress") + '/ProductType/Search',oData).then(
+                  function (response)
+                  {
+                      debugger;
+                      var oDatas = jQuery.parseJSON(response.data);
+                      if (oDatas.length>0)
+                      {
+                          $scope.gridOptions.data = oDatas;
+                      }
+                      else
+                      {
+                          alert("No Data Found");
+                      }
+                  },
+                      function (response) { alert(jQuery.parseJSON(response.data).Message);}
+              );
+        }
+    });
+
+
+</script>
+

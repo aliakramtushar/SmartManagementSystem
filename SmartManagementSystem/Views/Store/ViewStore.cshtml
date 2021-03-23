@@ -1,0 +1,135 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">Store Information</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="StoreApp" style="height:520px">
+            <div ng-controller="StoreController">
+                <div class="container">
+                    <form class="well form-horizontal" style="margin:0 auto; width:80%;margin-top: 80px">
+                        <fieldset>
+                            <div class="form-group" style="margin-top:30px">
+                                <label class="col-md-4 control-label" >Store Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                        <input type="text" placeholder="Enter Your Full Name" class="form-control" ng-model="Store.StoreName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Store Short Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-bookmark"></i></span>
+                                        <input type="text" placeholder="Enter Your Short Name" class="form-control" ng-model="Store.StoreShortName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Store Capacity</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+                                        <input type="text" placeholder="Enter Your Short Name" class="form-control" ng-model="Store.Capacity">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sms-panel-btn">
+                                <button type="button" ng-click="Close()" class="btn btn-danger" style="float:right; margin-right:10px; margin-left:10px;"><i class="glyphicon glyphicon-off"></i> Close</button>
+                                <button type="button" ng-click="Save()" class="btn btn-success" style="float:right; "><i class="glyphicon glyphicon-save"></i> Save</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .input-group-addon.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(50, 118, 177);
+        border-color: rgb(40, 94, 142);
+    }
+
+    .input-group-addon.success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 184, 92);
+        border-color: rgb(76, 174, 76);
+    }
+
+    .input-group-addon.info {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 179, 215);
+        border-color: rgb(38, 154, 188);
+    }
+
+    .input-group-addon.warning {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 173, 78);
+        border-color: rgb(238, 162, 54);
+    }
+
+    .input-group-addon.danger {
+        color: rgb(255, 255, 255);
+        background-color: rgb(217, 83, 79);
+        border-color: rgb(212, 63, 58);
+    }
+</style>
+<script type="text/javascript">
+debugger;
+var oStore =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+
+debugger;
+var StoreModule= angular.module('StoreApp', ['ui.grid','ui.grid.selection']);
+StoreModule.controller('StoreController',function ($scope,$http,uiGridConstants)
+{
+    debugger;
+    $scope.Store = oStore;
+    $scope.Save = function(e)
+    {
+        debugger;
+        var oStore = $scope.Store;
+        if(oStore.StoreName.length<5)
+        {
+            alert("Store Name is So Small, Please Enter at least Five Words !!");
+            return;
+        }
+        $http.post(sessionStorage.getItem("BaseAddress") + '/Store/IUD',oStore).then(
+              function (response)
+              {
+                  var oStore= jQuery.parseJSON(response.data);
+                  if (oStore.ErrorMessage=="" || oStore.ErrorMessage==null)
+                  {
+                      alert("Data Saved Successfully!!");
+                      window.location.href = sessionStorage.getItem("BackLink");
+                  }
+                  else
+                  {
+                      alert(oStore.ErrorMessage);
+                  }
+
+              },
+                   function (response) { alert(response.statusText);}
+          );
+    }
+    $scope.Close = function(e)
+    {
+        window.location.href = sessionStorage.getItem("BackLink");
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+
+
+

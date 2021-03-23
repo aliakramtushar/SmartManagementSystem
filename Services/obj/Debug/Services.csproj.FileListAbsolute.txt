@@ -1,0 +1,118 @@
+H:\New Practice\SmartManagementSystem\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\SmartManagementSystem\Services\bin\Debug\Services.dll
+H:\New Practice\SmartManagementSystem\Services\bin\Debug\Services.pdb
+H:\New Practice\SmartManagementSystem\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\SmartManagementSystem\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\SmartManagementSystem\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\SmartManagementSystem\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\SmartManagementSystem\Services\obj\Debug\Services.dll
+H:\New Practice\SmartManagementSystem\Services\obj\Debug\Services.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\bin\Debug\Services.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\bin\Debug\Services.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\obj\Debug\Services.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\Services\obj\Debug\Services.pdb
+H:\New Practice\Smart Management System\Services\bin\Debug\Services.dll
+H:\New Practice\Smart Management System\Services\bin\Debug\Services.pdb
+H:\New Practice\Smart Management System\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\Smart Management System\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\Smart Management System\Services\obj\Debug\Services.dll
+H:\New Practice\Smart Management System\Services\obj\Debug\Services.pdb
+H:\New Practice\Timu Copy\Smart Management System\Services\bin\Debug\Services.dll
+H:\New Practice\Timu Copy\Smart Management System\Services\bin\Debug\Services.pdb
+H:\New Practice\Timu Copy\Smart Management System\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\Timu Copy\Smart Management System\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\Timu Copy\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\Timu Copy\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\Timu Copy\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\Timu Copy\Smart Management System\Services\obj\Debug\Services.dll
+H:\New Practice\Timu Copy\Smart Management System\Services\obj\Debug\Services.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Services\bin\Debug\Services.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Services\bin\Debug\Services.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\09-29-2018\Smart Management System\Smart Management System\Services\obj\Debug\Services.dll
+F:\09-29-2018\Smart Management System\Smart Management System\Services\obj\Debug\Services.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\bin\Debug\Services.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\bin\Debug\Services.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\obj\Debug\Services.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\Services\obj\Debug\Services.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\bin\Debug\Services.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\bin\Debug\Services.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\obj\Debug\Services.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\Services\obj\Debug\Services.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\Services.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\Services.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\obj\Debug\Services.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\Services\obj\Debug\Services.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\bin\Debug\Services.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\bin\Debug\Services.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\bin\Debug\BusinessObject.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\bin\Debug\SMSEngine.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\obj\Debug\Services.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\Services\obj\Debug\Services.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\Services.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\Services.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\obj\Debug\Services.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\Services\obj\Debug\Services.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\bin\Debug\Services.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\bin\Debug\Services.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\bin\Debug\BusinessObject.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\bin\Debug\SMSEngine.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\bin\Debug\BusinessObject.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\bin\Debug\SMSEngine.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\obj\Debug\Services.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Services\obj\Debug\Services.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\bin\Debug\Services.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\bin\Debug\Services.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\bin\Debug\BusinessObject.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\bin\Debug\SMSEngine.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\bin\Debug\BusinessObject.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\bin\Debug\SMSEngine.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\obj\Debug\Services.csproj.CopyComplete
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\obj\Debug\Services.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\Services\obj\Debug\Services.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\bin\Debug\Services.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\bin\Debug\Services.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\bin\Debug\BusinessObject.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\bin\Debug\SMSEngine.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\bin\Debug\BusinessObject.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\bin\Debug\SMSEngine.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\obj\Debug\Services.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\Services\obj\Debug\Services.pdb

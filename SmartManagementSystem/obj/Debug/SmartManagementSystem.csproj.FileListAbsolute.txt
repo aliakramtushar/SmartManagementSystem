@@ -1,0 +1,670 @@
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Services.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\SmartManagementSystem\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Services.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\SmartManagementSystem\SMS\Main Project\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Services.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Services.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\Timu Copy\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+F:\09-29-2018\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\v 1.02 (timu update)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\itextsharp.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+F:\2019-SmS\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Reports.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Services.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Http.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Services.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Http.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+C:\Users\steve\Desktop\New folder (2)\Timu Backup Bill Last\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Services.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+F:\2019-SmS\OLD FILES\Smart Management System (1)\Smart Management System\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\csc.exe
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\BusinessObject.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\itextsharp.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Reports.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Services.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\SMSEngine.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Http.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\WebGrease.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\BusinessObject.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Reports.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Services.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\SMSEngine.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Http.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\New Practice\v 1.03 (akram update)\Smart Management System\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\csc.exe
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\vbc.exe
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\SmartManagementSystem.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\SmartManagementSystem.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Antlr3.Runtime.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\BusinessObject.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Newtonsoft.Json.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Reports.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Services.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\SMSEngine.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Helpers.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Http.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Mvc.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Optimization.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Razor.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.WebPages.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\WebGrease.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\BusinessObject.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Reports.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Services.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\SMSEngine.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Http.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Helpers.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Mvc.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Optimization.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.Razor.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.WebPages.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\bin\Newtonsoft.Json.xml
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojAssemblyReference.cache
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\obj\Debug\SmartManagementSystem.csproj.CopyComplete
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+D:\Users\ali.akram\Pictures\Smart Management System - Copy\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\csc.exe
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\vbc.exe
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\SmartManagementSystem.dll.config
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\SmartManagementSystem.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\SmartManagementSystem.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Antlr3.Runtime.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\BusinessObject.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\itextsharp.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Newtonsoft.Json.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Reports.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Services.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\SMSEngine.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Net.Http.Formatting.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Helpers.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Http.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Http.WebHost.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Mvc.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Optimization.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Razor.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.WebPages.Deployment.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.WebPages.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.WebPages.Razor.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\WebGrease.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\BusinessObject.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Reports.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Services.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\SMSEngine.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Net.Http.Formatting.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Http.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Http.WebHost.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Helpers.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Mvc.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Optimization.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.Razor.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.WebPages.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.WebPages.Deployment.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\System.Web.WebPages.Razor.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Antlr3.Runtime.pdb
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\bin\Newtonsoft.Json.xml
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\obj\Debug\SmartManagementSystem.csprojResolveAssemblyReference.cache
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\obj\Debug\SmartManagementSystem.dll
+H:\Source Code\ASP.NET\Smart Management System(Chandpur)\SmartManagementSystem\obj\Debug\SmartManagementSystem.pdb

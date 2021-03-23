@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = "Product Type";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">Product Type Information</div>
+    <div class="panel-body" style="width:100%; margin:0; padding:0">
+        <div ng-app="ProductTypeApp" style="height:520px">
+            <div ng-controller="ProductTypeController">
+                <div class="container">
+                    <form class="well form-horizontal" style="margin:0 auto; width:80%;margin-top: 80px">
+                        <fieldset>
+                            <div class="form-group" style="margin-top:25px">
+                                <label class="col-md-4 control-label">Product Type Name</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-tag"></i></span>
+                                        <input type="text" placeholder="Enter Product Type Name" class="form-control" ng-model="ProductType.ProductTypeName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Type Code</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-qrcode"></i></span>
+                                        <input type="text" placeholder="Enter Product Type Code" class="form-control" ng-model="ProductType.ProductTypeCode">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sms-panel-btn" style="margin-top:50px">
+                                <button type="button" ng-click="Close()" class="btn btn-danger" style="float:right; margin-right:10px; margin-left:10px;"><i class="glyphicon glyphicon-off"></i> Close</button>
+                                <button type="button" ng-click="Save()" class="btn btn-success" style="float:right; "><i class="glyphicon glyphicon-save"></i> Save</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .input-group-addon.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(50, 118, 177);
+        border-color: rgb(40, 94, 142);
+    }
+
+    .input-group-addon.success {
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 184, 92);
+        border-color: rgb(76, 174, 76);
+    }
+
+    .input-group-addon.info {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 179, 215);
+        border-color: rgb(38, 154, 188);
+    }
+
+    .input-group-addon.warning {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 173, 78);
+        border-color: rgb(238, 162, 54);
+    }
+
+    .input-group-addon.danger {
+        color: rgb(255, 255, 255);
+        background-color: rgb(217, 83, 79);
+        border-color: rgb(212, 63, 58);
+    }
+
+    .grid-angular {
+        width: 100%;
+        height: 175px;
+    }
+</style>
+
+<script type="text/javascript">
+    debugger;
+    var oProductType =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model));
+    var nBUID =@Html.Raw( new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(ViewBag.BUID));
+
+            debugger;
+            var ProductTypeModule= angular.module('ProductTypeApp', ['ui.grid','ui.grid.selection']);
+            ProductTypeModule.controller('ProductTypeController',function ($scope,$http,uiGridConstants)
+            {
+                // oProductTypes = (sessionStorage.getItem('ProductTypes')!=null)? JSON.parse(sessionStorage.getItem('ProductTypes')) : oProductTypes;
+                debugger;
+                $scope.ProductType = oProductType;
+
+                $scope.Save = function(e)
+                {
+                    debugger;
+                    var oProductType = $scope.ProductType;
+                    if(oProductType.ProductTypeName == "")
+                    {
+                        alert("Enter Product Type Name");
+                        return;
+                    }
+                    //if(oProductType.ProductTypeCode == "")
+                    //{
+                    //    alert("Enter Product Type Code");
+                    //    return;
+                    //}
+                    $http.post(sessionStorage.getItem("BaseAddress") + '/ProductType/Save',oProductType).then(
+                          function (response)
+                          {
+                              var oProductType= jQuery.parseJSON(response.data);
+                              if (oProductType.ErrorMessage=="" || oProductType.ErrorMessage==null)
+                              {
+                                  alert("Data Saved Successfully!!");
+                                  window.location.href = sessionStorage.getItem("BackLink");
+                              }
+                              else
+                              {
+                                  alert(oProductType.ErrorMessage);
+                              }
+                          },
+                              function (response) { alert(response.statusText);}
+                      );
+                }
+                $scope.Close = function(e)
+                {
+                    window.location.href = sessionStorage.getItem("BackLink");
+                }
+            });
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+

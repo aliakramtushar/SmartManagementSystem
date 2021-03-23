@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<title></title>*@
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bootstrap.css")
+    @Styles.Render("~/Content/bootstrap.min.css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/jquery-3.1.0.js")
+    @Scripts.Render("~/Scripts/jquery-3.1.0.min.js")
+
+    <link href="~/Content/SMS.css" rel="stylesheet" />
+    <link href="~/Content/ui-grid.css" rel="stylesheet" />
+
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-touch.js"></script>
+    <script src="~/Scripts/angular-animate.js"></script>
+    <script src="~/Scripts/angular-aria.js"></script>
+    <script src="~/Scripts/ui-grid.js"></script>
+
+    @*-----------------------------------------------------Side Bar Portion---------------------------------------------------------*@
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    @*-----------------------------------------------------Side Bar Portion---------------------------------------------------------*@
+    <link href="~/Content/FixedHeader.css" rel="stylesheet" />
+    @*-------------------------------------------------------------------------------------------------------------------------------*@
+    <link href="~/Content/FlipChkBox/Flip.css" rel="stylesheet" />
+    <script src="~/Content/FlipChkBox/Flip.js"></script>
+    <link href="~/Content/tempstyle.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-red">
+            <div style="float:left">
+                <label style="color:white; font-size:15px; padding-left:10px; font-weight:bold;">GETCO Company Limited</label>
+            </div>
+            <div style="float:right">
+                <button id="btnLogout" class="w3-button w3-black">Logout</button>
+            </div>
+        </div>
+    </div>
+    <table border="0" style="width:1360px; margin-top:38px">
+        <tr>
+            <td style="width:15%; margin-top:100px">
+                <div class="nav-side-menu">
+                    <div class="brand">Getco</div>
+                    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                    <div class="menu-list">
+                        <ul id="menu-content" class="menu-content collapse out">
+                            <li>
+                                <a href="~/User/ViewUsers?nBUID=1&nUserID=1">
+                                    <i class="fa fa-user-circle"></i>
+                                    <span>User Entry</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/ProductType/ViewProductTypes?nBUID=1&menuid=1">
+                                    <i class="fa fa-cart-plus"></i>
+                                    <span>Product Type Entry</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/ProductCategory/ViewProductCategorys?nBUID=1&menuid=1">
+                                    <i class="fa fa-cart-plus"></i>
+                                    <span>Product Category Entry</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Product/ViewProducts?nBUID=1&nUserID=0">
+                                    <i class="fa fa-cart-plus"></i>
+                                    <span>Product Entry</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Store/ViewStores?nBUID=1&nUserID=1">
+                                    <i class="fa fa-industry"></i>
+                                    <span>Store Entry</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Contractor/ViewSuppliers?nBUID=1&nUserID=1">
+                                    <i class="fa fa-user-plus"></i>
+                                    <span>Supplier</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Contractor/ViewBuyers?nBUID=1&nUserID=1">
+                                    <i class="fa fa-user-plus"></i>
+                                    <span>Buyer</span>
+                                </a>
+                            </li>
+                            <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                                <a href="#"><i class="fa fa-gift fa-lg"></i> Stores <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="products">
+                                <li><a href="~/StoreProduct/ViewStoreProducts?nBUID=1&nUserID=1"> Store Management</a></li>
+                                <li><a href="~/StoreProductHistory/ViewStoreProductHistorys?nBUID=1&nUserID=1"> History </a></li>
+                            </ul>
+                            <li data-toggle="collapse" data-target="#products2" class="collapsed active">
+                                <a href="#"><i class="fa fa-gift fa-lg"></i> Bill (Memo) <span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="products2">
+                                <li><a href="~/Bill/ViewBills?nBUID=1&nUserID=1"> Bill Management</a></li>
+                                <li><a href="~/Bill/ViewDueBills?nBUID=1&nUserID=1"> Due Bill List</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+            <td style="width:85%; font-size:12px;">
+                @RenderBody()
+            </td>
+        </tr>
+    </table>
+    <div class="sms-footer">
+        <p>Smart Management System (2018)</p>
+    </div>
+        @*@Scripts.Render("~/img")*@
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>
+<script>
+    debugger;
+    var oTempUser = sessionStorage.getItem("User");
+    oTempUser = jQuery.parseJSON(oTempUser);
+    $('#lblName').text(oTempUser.UserName);
+    $('#lblType').text(oTempUser.UserTypeSt);
+    sessionStorage.setItem("UserID", oTempUser.UserID);
+    $('#btnLogout').click(function () {
+        if (!confirm("Are You Want To Logout?")) return;
+        window.location.href = sessionStorage.getItem("BaseAddress");
+    });
+</script>
+
